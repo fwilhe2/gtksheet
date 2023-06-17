@@ -23,4 +23,6 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: app
-        path: ./build/gtksheet/testgtksheet
+        path: |
+          ./build/gtksheet/testgtksheet
+          ./build/gtksheet/libgtksheet-4.0.so*
