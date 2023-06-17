@@ -366,10 +366,10 @@ void
     {
         glade_gtk_sheet_launch_editor (object);
     }
-    else
-        GWA_GET_CLASS (GTK_TYPE_CONTAINER)->action_activate (adaptor,
-                                                             object,
-                                                             action_path);
+    // else
+    //     GWA_GET_CLASS (GTK_TYPE_CONTAINER)->action_activate (adaptor,
+    //                                                          object,
+    //                                                          action_path);
 }
 
 

@@ -49,7 +49,7 @@ enums = gnome.mkenums_simple(
     sources: public_h_sources)
 
 resources = gnome.compile_resources(
-    'gtksheet-resources', 'gtksheet-resources.xml', 'gtksheet.css',
+    'gtksheet-resources', 'gtksheet-resources.xml',
     source_dir: '.',
     c_name: 'gtk_sheet')
 
